@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso responsable | Conecta+</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+        <div class="container">
+            <a class="navbar-brand marca" href="../index.html">
+                <img src="../imágenes/logo.png"
+                     alt="Logo de Conecta+" class="logo">
+              
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+                aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="redes.html">Redes sociales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="huelladigital.html">Huella digital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comunicación.html">Comunicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="usoresponsable.html">Uso responsable</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+    <header class="container text-center py-5">
+        <h1>Usa las redes con responsabilidad</h1>
+        <p class="lead">
+            La tecnología puede ayudarnos a aprender, expresarnos y conectar.
+            Lo importante es utilizarla de manera consciente, segura y equilibrada.
+        </p>
+        <a href="#consejos" class="btn btn-primary mt-3">Descubrir consejos</a>
+    </header>
+
+ 
+    <main class="container py-4" id="consejos">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../imágenes/tiempo.png"
+                        class="card-img-top" alt="Uso equilibrado del celular">
+                    <div class="card-body">
+                        <h2 class="card-title h5">Administra tu tiempo</h2>
+                        <p class="card-text">
+                            Establece momentos para desconectarte y dedicar tiempo
+                            a tus estudios, descanso, familia y amigos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../imágenes/contraseñas.png"
+                        class="card-img-top" alt="Seguridad en internet">
+                    <div class="card-body">
+                        <h2 class="card-title h5">Protege tus datos</h2>
+                        <p class="card-text">
+                            Utiliza contraseñas seguras, revisa la privacidad
+                            de tus cuentas y evita compartir información personal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../imágenes/convivencia.png"
+                        class="card-img-top" alt="Convivencia respetuosa en internet">
+                    <div class="card-body">
+                        <h2 class="card-title h5">Respeta a los demás</h2>
+                        <p class="card-text">
+                            Piensa antes de publicar, respeta las opiniones
+                            y no participes en burlas o agresiones digitales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+     
+        <section class="seccion-final my-5">
+            <h2 class="text-center mb-3">Mi compromiso digital</h2>
+            <p class="text-center">
+                Marca los hábitos que quieres poner en práctica.
+            </p>
+
+            <form id="formularioCompromiso" class="mx-auto" style="max-width: 650px;">
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="habito1">
+                    <label class="form-check-label" for="habito1">
+                        Revisar la privacidad de mis redes sociales.
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="habito2">
+                    <label class="form-check-label" for="habito2">
+                        Pensar antes de publicar o compartir información.
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="habito3">
+                    <label class="form-check-label" for="habito3">
+                        Tratar con respeto a las personas en internet.
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="habito4">
+                    <label class="form-check-label" for="habito4">
+                        Equilibrar mi tiempo en pantalla con otras actividades.
+                    </label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="compromisoPersonal" class="form-label">
+                        Mi compromiso personal:
+                    </label>
+                    <textarea class="form-control" id="compromisoPersonal"
+                        rows="3" placeholder="Escribe qué hábito quieres mejorar..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Guardar mi compromiso
+                </button>
+
+                <p id="mensajeCompromiso" class="mt-3" aria-live="polite"></p>
+            </form>
+        </section>
+
+      
+        <section class="text-center py-4">
+            <h2>Conecta de forma positiva</h2>
+            <p>
+                Cada decisión que tomamos en internet puede marcar una diferencia.
+                Seamos parte de una comunidad digital más segura, respetuosa y consciente.
+            </p>
+            <a href="../index.html" class="btn btn-outline-primary mt-2">
+                Volver al inicio
+            </a>
+        </section>
+    </main>
+
+   
+    <footer class="pie-pagina">
+        <div class="container py-5">
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <h2 class="titulo-pie">Conecta+</h2>
+                    <p>Tu mundo digital, consciente.</p>
+                    <p>Conecta, comparte y convive responsablemente.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="subtitulo-pie">Explora</h3>
+                    <ul class="enlaces-pie">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="redes.html">Redes sociales</a></li>
+                        <li><a href="huelladigital.html">Huella digital</a></li>
+                        <li><a href="comunicación.html">Comunicación</a></li>
+                        <li><a href="usoresponsable.html">Uso responsable</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="subtitulo-pie">Encuéntranos en</h3>
+                    <ul class="enlaces-pie">
+                        <li><a href="https://www.instagram.com/"
+                            target="_blank" rel="noopener noreferrer">Instagram ↗</a></li>
+                        <li><a href="https://www.tiktok.com/"
+                            target="_blank" rel="noopener noreferrer">TikTok ↗</a></li>
+                        <li><a href="https://www.youtube.com/"
+                            target="_blank" rel="noopener noreferrer">YouTube ↗</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="linea-pie">
+
+            <p class="texto-final">
+                Conéctate con respeto. Comparte con responsabilidad.
+                © 2026 Conecta+
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const formulario = document.getElementById("formularioCompromiso");
+        const mensaje = document.getElementById("mensajeCompromiso");
+
+        formulario.addEventListener("submit", function(evento) {
+            evento.preventDefault();
+
+            const compromiso = document.getElementById("compromisoPersonal").value.trim();
+            const habitosMarcados = formulario.querySelectorAll(
+                'input[type="checkbox"]:checked'
+            ).length;
+
+            if (habitosMarcados === 0 && compromiso === "") {
+                mensaje.textContent = "Marca al menos un hábito o escribe tu compromiso.";
+                return;
+            }
+
+            mensaje.textContent = "¡Excelente! Ya elegiste cómo mejorar tu uso de internet.";
+        });
+    </script>
+
+</body>
+</html>
